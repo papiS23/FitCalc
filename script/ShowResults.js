@@ -6,8 +6,7 @@ const header = document.querySelector('header');
 
 
 function submitOn() {
-    let hostname = window.location.hostname;
-    window.location.href = hostname + '#results';
+    window.location.href = '#results';
     results.style.display = 'flex';
     loader.style.animation = "fadeIn 1s";
     loader.className = "loader";
